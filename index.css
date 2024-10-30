@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-back{
+    background-color:rgb(54,69,79);
+}
+
+.nav-image{
+    position: absolute;
+    top: 0px;
+    /* left: 0px ; */
+    right: 0px ;
+    height: 100vh;
+    width: 60vw;
+    /* z-index: 3; */
+}
+
+.css-nav{
+    background: rgba(223, 69, 69, 0);
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    /* padding: 30px ; */
+    animation: scroll-transition;
+    animation-timeline:scroll(y);
+}
+@keyframes scroll-transition {
+    to{
+        background-color: #000000;
+    }
+}
+
+.logo-text{
+    font-family:"Roboto", sans-serif;
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+/* hero */
+
+.css-hero{
+    margin: 100px;
+}
+
+.hero-heading{
+    font-family:"Roboto", sans-serif;
+    font-weight: 700px;
+    font-size: 48px;
+}
+
+.hero-para{
+    font-family:"Roboto", sans-serif;
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+/* 1st cards */
+
+.css-card-one{
+    border-width: 3px; 
+    color: #007bff;
+}
+
+/* art work */
+
+.art-heading{
+    font-family:"Roboto", sans-serif;
+    font-weight: 500px;
+    font-size: 28px;
+}
+
+.art-para{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.art-card{
+    border-width: 3px; 
+    color: #007bff;
+}
+
+/* art work 2 */
+
+.art-work-two-h{
+    font-family:"Roboto", sans-serif;
+    font-weight: 500px;
+    font-size: 28px;
+}
+
+.art-work-two-p{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+/* our service card */
+
+
+.custom-our-services-cards-heading-main{
+    font-family:"Roboto", sans-serif;
+    font-weight: 500px;
+    font-size: 78px;
+}
+.custom-our-services-cards-heading-second{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+    margin: 130px 0px 0px 0px;
+}
+.custom-our-services-cards-para-second{
+    font-family:"Roboto", sans-serif;
+    font-weight: 300px;
+    font-size: 15px;
+}
+.custom-our-services-cards-pictures{
+    width: 15vw;
+}.one-one{
+    position: absolute;
+    top: -30px;
+    left: 45px;
+}
+
+
+.our-service-image{
+    position: absolute;
+    top: 0px;
+    /* left: 0px ; */
+    right: 0px ;
+    height: 80vh;
+    width: 40vw;
+    /* z-index: 3; */
+}
+
+.custom{
+    position: relative;
+    z-index: 3;
+}
+
+
+/* our values */
+
+.custom-logo{
+    height: 80vh;
+}
+
+.css-our-h{
+    font-family:"Roboto", sans-serif;
+    font-weight: 500px;
+    font-size: 28px;
+}
+
+.css-our-p{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.our-card-main-margin{
+    margin: 60px 0px 60px 0px;
+}
+
+.custom-our-card-style{
+    margin: 40px 130px 0px 130px;
+}
+
+.icns-padd{
+    padding: 0px 80px 0px 80px;
+    margin: 150px 150px 100px 150px;
+}
+
+.css-studies{
+    font-family:"Roboto", sans-serif;
+    font-weight: 700px;
+    font-size: 52px;
+    color: #BBDEFB;
+}
+
+.p-rexr-studies{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #0D47A1;
+}
+
+.p-rexr-studies-two{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.testi-main-head{
+    margin-top: 10%;
+}
+.testi-tex-photo{
+    height: 15vh;
+    width: 5vw;
+}
+
+.css-w-image{
+    width: 70vw;
+}
+
+.css-mar{
+    margin: 80px;
+}
+
+.ready-css{
+    background-color: #0D47A1;
+    margin: 100px 80px 80px 80px;
+    padding: 0px 40px 0px 40px;
+}
+
+.fut-h{
+    font-family:"Roboto", sans-serif;
+    font-weight: 700px;
+    font-size: 18px;
+    color: #BBDEFB;
+}
